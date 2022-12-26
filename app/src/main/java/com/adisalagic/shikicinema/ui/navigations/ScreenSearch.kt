@@ -29,6 +29,11 @@ fun ScreenSearch() {
     Column(
         modifier = Modifier.padding(20.dp)
     ){
-        AnimeTile(title = "Touhow meme", image = "https://pm1.narvii.com/6475/9c0d262faae8f19fe538ff651fb9ed3a72e62938_hq.jpg")
+        Row (horizontalArrangement = Arrangement.SpaceBetween) {
+            AnimeTile(title = "Touhow meme",
+                image = "https://i.pinimg.com/236x/c1/fd/04/c1fd0493aaa48c77dcb8bd4a6ca1efff.jpg")
+            AnimeTile(title = "Touhow meme",
+                image = "https://i.pinimg.com/236x/c1/fd/04/c1fd0493aaa48c77dcb8bd4a6ca1efff.jpg")
+        }
     }
 }
